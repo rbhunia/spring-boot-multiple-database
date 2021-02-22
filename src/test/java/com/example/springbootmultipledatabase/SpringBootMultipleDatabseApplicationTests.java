@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse;
+package com.example.springbootmultipledatabase;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

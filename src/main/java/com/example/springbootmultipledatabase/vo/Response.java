@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse.vo;
+package com.example.springbootmultipledatabase.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

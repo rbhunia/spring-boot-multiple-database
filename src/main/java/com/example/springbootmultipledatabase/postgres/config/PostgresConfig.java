@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse.postgres.config;
+package com.example.springbootmultipledatabase.postgres.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -22,7 +22,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "postgresEntityManagerFactory",
         transactionManagerRef = "postgresTransactionManager",
-        basePackages = {"com.example.springbootmultipledatabse.postgres.repository"}
+        basePackages = {"com.example.springbootmultipledatabase.postgres.repository"}
 )
 public class PostgresConfig {
 

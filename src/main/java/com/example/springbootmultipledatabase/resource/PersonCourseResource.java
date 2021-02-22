@@ -1,11 +1,11 @@
-package com.example.springbootmultipledatabse.resource;
+package com.example.springbootmultipledatabase.resource;
 
-import com.example.springbootmultipledatabse.exception.ResourceNotFoundException;
-import com.example.springbootmultipledatabse.h2.entity.Course;
-import com.example.springbootmultipledatabse.h2.repository.CourseRepository;
-import com.example.springbootmultipledatabse.postgres.entity.Person;
-import com.example.springbootmultipledatabse.postgres.repository.PersonRepository;
-import com.example.springbootmultipledatabse.vo.Response;
+import com.example.springbootmultipledatabase.exception.ResourceNotFoundException;
+import com.example.springbootmultipledatabase.h2.entity.Course;
+import com.example.springbootmultipledatabase.h2.repository.CourseRepository;
+import com.example.springbootmultipledatabase.postgres.entity.Person;
+import com.example.springbootmultipledatabase.postgres.repository.PersonRepository;
+import com.example.springbootmultipledatabase.vo.Response;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

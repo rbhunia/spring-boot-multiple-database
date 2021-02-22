@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse.h2.config;
+package com.example.springbootmultipledatabase.h2.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -23,7 +23,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "h2EntityManagerFactory",
         transactionManagerRef = "h2TransactionManager",
-        basePackages = {"com.example.springbootmultipledatabse.h2.repository"}
+        basePackages = {"com.example.springbootmultipledatabase.h2.repository"}
 )
 public class H2Config {
 

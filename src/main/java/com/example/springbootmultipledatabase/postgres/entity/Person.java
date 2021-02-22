@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse.postgres.entity;
+package com.example.springbootmultipledatabase.postgres.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

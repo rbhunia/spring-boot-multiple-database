@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse.h2.entity;
+package com.example.springbootmultipledatabase.h2.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

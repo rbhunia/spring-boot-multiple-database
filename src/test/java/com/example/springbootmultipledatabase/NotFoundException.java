@@ -1,4 +1,4 @@
-package com.example.springbootmultipledatabse;
+package com.example.springbootmultipledatabase;
 
 public class NotFoundException extends RuntimeException {
 
