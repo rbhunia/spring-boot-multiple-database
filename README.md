@@ -1,1 +1,1 @@
-# spring-boot-multiple-databse
+# spring-boot-multiple-database
