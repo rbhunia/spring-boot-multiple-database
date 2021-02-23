@@ -35,6 +35,6 @@ public class PersonCourseResource {
                 .findById(courseId)
                 .map(Course::new)
                 .orElseThrow(() -> new ResourceNotFoundException("No such course"));
-        return ResponseEntity.ok(new Response(person.getName() + " enrolled to " + course.getName() + " course"));
+        return ResponseEntity.ok(new Response(person.getName() + " enrolled to " + course.getName() + " course."));
     }
 }

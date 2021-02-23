@@ -48,7 +48,7 @@ public class H2Config {
         return builder
                 .dataSource(dataSource)
                 .properties(properties)
-                .packages("com.example.springbootmultipledatabse.h2.entity")
+                .packages("com.example.springbootmultipledatabase.h2.entity")
                 .persistenceUnit("h2")
                 .build();
     }

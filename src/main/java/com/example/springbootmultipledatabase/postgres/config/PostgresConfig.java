@@ -44,7 +44,7 @@ public class PostgresConfig {
         return builder
                 .dataSource(dataSource)
                 .properties(properties)
-                .packages("com.example.springbootmultipledatabse.postgres.entity")
+                .packages("com.example.springbootmultipledatabase.postgres.entity")
                 .persistenceUnit("postgres")
                 .build();
     }
